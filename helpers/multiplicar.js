@@ -11,7 +11,6 @@ const crearArchivoTabla = async (base = 5, show, limit) => {
             salida += (`${base} X ${index} = ${element}\n`);
         }
 
-        // TODO: Si listar esta en true se lista sino devuelve name file
         if (show) {
             console.log('==================='.green);
             console.log('   Tabla del: ', color.magenta(base));
