@@ -9,7 +9,7 @@ El archivo que genera se guarda en la carpeta 'salida'.
     node app -b=numberBase -s=boolean -l=limitNumber
     node app -b=5 -s=true -l=12
 
-    #### Ayuda
+    // Ayuda
     node app --help
 ```
 
